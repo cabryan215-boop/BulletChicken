@@ -1,3 +1,6 @@
+if global.isFim{
+	exit
+}
 x+=velocidade * direcaoHorizontal
 y+=velocidade * direcaoVertical
 
