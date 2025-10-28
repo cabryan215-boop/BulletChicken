@@ -1,7 +1,7 @@
 if global.isFim{
 	exit
 }
-if global.vidas<0{
+if global.vidas<=0{
 	global.isFim = true 
 }
 if totalVidas > global.vidas{

@@ -4,6 +4,18 @@ y = mouse_y
 
 image_angle += giro
 
+
+if global.isFim{
+	exit
+}
+
+if place_meeting(x, y, ObjInimigo){
+	sprite_index=sprMira2
+}
+else{
+	sprite_index = sprMira
+}
+
 if mouse_check_button_pressed(mb_left){
 	if place_meeting(x, y, ObjInimigo){
 		global.pontos+=20
@@ -12,7 +24,7 @@ if mouse_check_button_pressed(mb_left){
 		alarm[1]=60 * 0.2
 		instance_destroy(inimigo)
 	}
-	else{
+	else if !place_meeting(x,y, objSom) and !place_meeting(x,y, objTelaCheia){
 		global.vidas--
 	}
 	

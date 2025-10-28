@@ -1,12 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"ObjRestart",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":13,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"ObjInvisivel",
+  "eventList":[],
   "managed":true,
-  "name":"ObjRestart",
+  "name":"ObjInvisivel",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -30,10 +27,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"SprRestart",
-    "path":"sprites/SprRestart/SprRestart.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }

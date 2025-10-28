@@ -15,6 +15,6 @@ if minutos < 10{
 }
 mensagem = "Tempo " + textoMinutos + ":" + textoSegundos
 
-
+draw_set_halign(fa_left)
 draw_text(x,y, mensagem)
 

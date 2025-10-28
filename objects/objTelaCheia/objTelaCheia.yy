@@ -1,12 +1,12 @@
 {
   "$GMObject":"",
-  "%Name":"ObjRestart",
+  "%Name":"objTelaCheia",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":13,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"ObjRestart",
+  "name":"objTelaCheia",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"SprRestart",
-    "path":"sprites/SprRestart/SprRestart.yy",
+    "name":"sprTelaMinuscula",
+    "path":"sprites/sprTelaMinuscula/sprTelaMinuscula.yy",
   },
   "spriteMaskId":null,
   "visible":true,
